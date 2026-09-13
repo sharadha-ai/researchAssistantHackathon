@@ -1,0 +1,103 @@
+{
+  "timestamp_utc": "2026-09-13T07-30-13",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "Baize \u2013 an open\u2011source CLI \u201cAI coding\u2011agent\u201d supporting multiple LLM back\u2011ends, tool\u2011calling, sub\u2011agent delegation, and sandboxed execution",
+        "signal_strength": "early",
+        "source_note": "tooling_trend_watcher (GitHub repo)"
+      },
+      {
+        "summary": "design\u2011studio\u2011ai \u2013 a cloud\u2011based workspace that blends AI agents with human designers, offering multimodal control panels and BYOK LLM integration",
+        "signal_strength": "early",
+        "source_note": "tooling_trend_watcher (GitHub repo)"
+      },
+      {
+        "summary": "ValuationAnalyst \u2013 lightweight framework for financial\u2011valuation agents (market\u2011data retrieval, ratio analysis, report generation)",
+        "signal_strength": "early",
+        "source_note": "tooling_trend_watcher (GitHub repo)"
+      },
+      {
+        "summary": "Agentic\u2011AI\u2011Based\u2011Multi\u2011Source\u2011Data\u2011Retrieval\u2011and\u2011Stakeholder\u2011Intelligence\u2011Platform \u2013 orchestrates API, DB, and file\u2011system calls to produce stakeholder\u2011focused intelligence",
+        "signal_strength": "early",
+        "source_note": "tooling_trend_watcher (GitHub repo)"
+      }
+    ],
+    "what_to_share_with_learners": [
+      {
+        "summary": "Agentic\u2011AI job postings have surged \u2248280% YTD, indicating a shift from pilots to production\u2011grade deployments",
+        "signal_strength": "strong",
+        "source_note": "F5 Hiring Solutions (2026\u201107\u201131), corroborated by multiple other postings"
+      },
+      {
+        "summary": "Compensation splits into two bands: hourly contracts $45\u2011$112\u202f/hr for rapid\u2011prototype work; full\u2011time senior roles $84k\u2011$135k base (plus bonuses); top\u2011tier senior talent $185k\u2011$320k base",
+        "signal_strength": "strong",
+        "source_note": "ZipRecruiter (hourly & full\u2011time listings), KORE1 salary survey"
+      },
+      {
+        "summary": "Companies hire remote talent in cost\u2011effective regions (e.g., India $600\u202f/week) while posting high\u2011salary senior roles in North America/Europe",
+        "signal_strength": "strong",
+        "source_note": "F5 Hiring Solutions, ZipRecruiter, KORE1"
+      },
+      {
+        "summary": "Surveys describe a thin talent pool and a seller\u2019s market for experienced Agentic\u2011AI engineers",
+        "signal_strength": "strong",
+        "source_note": "KORE1 hiring survey, NovelVista guide"
+      },
+      {
+        "summary": "New titles such as Agentic\u202fAI Engineer, Agentic\u202fAI Developer, AI\u2011Agent Product Manager, Automation Architect are appearing",
+        "signal_strength": "strong",
+        "source_note": "NovelVista guide, multiple job ads"
+      },
+      {
+        "summary": "In\u2011demand skill clusters include intelligent workflow design, AI\u2011agent development & deployment, automation/orchestration frameworks, rapid prototyping, full\u2011stack engineering, and business\u2011impact measurement",
+        "signal_strength": "strong",
+        "source_note": "F5, ZipRecruiter, KORE1, NovelVista"
+      }
+    ],
+    "linkedin_post_draft": "\ud83d\ude80 **Agentic AI hiring is exploding!** In just the past few months, advertised Agentic\u2011AI roles have jumped ~280\u202f% year\u2011to\u2011date \u2013 a clear signal that companies are moving from experimental pilots to full\u2011scale production. \ud83d\udcc8 Salaries reflect the rush: senior engineers are now commanding $185\u202fk\u2011$320\u202fk base, while contract talent can earn $45\u2011$112\u202f/hr for rapid\u2011prototype projects. \ud83c\udf0d Remote\u2011first hiring is also reshaping the talent map, with firms tapping skilled engineers worldwide (e.g., remote teams in India) while still offering premium packages for senior talent in North America and Europe. If you\u2019re an engineer who can design, build, and ship autonomous agents that drive measurable business impact, now is the moment to position yourself at the forefront of this booming market.",
+    "training_module_ideas": [
+      {
+        "topic": "End\u2011to\u2011End Agentic AI Development for Business Workflows",
+        "learning_objective": "Learners will be able to design, build, test, and deploy a production\u2011grade autonomous agent that automates a multi\u2011step business workflow and measures its impact.",
+        "key_points": [
+          "Define intelligent workflow requirements",
+          "Implement agent logic using rapid\u2011prototype techniques",
+          "Deploy the agent to a cloud environment",
+          "Set up metrics to evaluate business impact"
+        ],
+        "based_on": "In\u2011demand skill clusters"
+      },
+      {
+        "topic": "Navigating the Agentic AI Job Market: Roles, Compensation, and Career Paths",
+        "learning_objective": "Learners will be able to map emerging Agentic AI job titles to compensation bands and craft strategies to succeed in a seller\u2019s\u2011market environment.",
+        "key_points": [
+          "Identify emerging role taxonomy (Engineer, Developer, Product Manager, Automation Architect)",
+          "Understand the two compensation bands (hourly vs. senior salary)",
+          "Analyze geographic hiring trends and remote\u2011first strategies",
+          "Develop personal branding and negotiation tactics for a thin talent pool"
+        ],
+        "based_on": "Hiring volume; Compensation split; Geographic flexibility; Talent shortage / seller\u2019s market; Emerging role taxonomy"
+      },
+      {
+        "topic": "Hands\u2011On with Emerging Agentic AI Tooling",
+        "learning_objective": "Learners will gain practical experience with the latest open\u2011source Agentic AI tools and frameworks to accelerate prototype development.",
+        "key_points": [
+          "Explore Baize CLI for terminal\u2011based AI coding assistance",
+          "Create collaborative agents using design\u2011studio\u2011ai\u2019s multimodal workspace",
+          "Build a domain\u2011specific agent with ValuationAnalyst",
+          "Experiment with a multi\u2011source data\u2011retrieval platform for stakeholder intelligence"
+        ],
+        "based_on": "Tool\u2011centric CLI agents; Collaborative design agents; Domain\u2011specific agent frameworks; Multi\u2011source data\u2011retrieval platform"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 4937,
+    "output_tokens": 2076,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
