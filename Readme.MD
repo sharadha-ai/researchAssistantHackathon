@@ -15,7 +15,8 @@ week re-doing the same manual research from scratch.
   a linked image that looks like a play button, since GitHub won't embed
   a real YouTube player in a README.
 -->
-[![Watch the 3-minute demo](https://img.youtube.com/vi/YOUTUBE_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUTUBE_ID)
+[![Watch the 3-minute demo]
+https://youtu.be/8uAp2hFxO6g
 
 ---
 
@@ -45,16 +46,18 @@ this week" is exactly what it closes.
   a screen recording converted via ffmpeg/gifski). Drop the file at
   docs/demo.gif in the repo and this will render inline and autoplay.
 -->
-![Demo of a live run](./docs/demo.gif)
 
 <!--
   PLACEHOLDER: a phone screenshot of the Telegram digest arriving, and/or
   the GitHub Actions run summary showing both workflows. Static images —
   drag into the GitHub web editor or reference a file in docs/.
 -->
+![Telegram digest screen 1](telegram_screen1.png)
+![Telegram digest screen 2](telegram_screen2.png)
+
 | Personal digest, delivered automatically | Publishing is a separate, manual step |
 |---|---|
-| ![Telegram digest](./docs/telegram-digest.png) | ![Publish workflow](./docs/publish-workflow.png) |
+
 
 ## How it works
 
