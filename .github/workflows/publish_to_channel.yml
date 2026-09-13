@@ -10,6 +10,10 @@ on:
         description: "Paste your fine-tuned version here to publish it as-is. Leave blank to publish the latest digest's linkedin_post_draft unedited."
         required: false
         default: ""
+      channel_id:
+        description: "Override the TELEGRAM_CHANNEL_ID secret for this run only (e.g. for testing). Leave blank to use the saved secret."
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -30,6 +34,6 @@ jobs:
       - name: Publish to channel
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           MESSAGE_OVERRIDE: ${{ github.event.inputs.message_override }}
         run: python publish_to_channel.py
