@@ -1,0 +1,10 @@
+strands-agents
+strands-agents-tools
+boto3
+openai
+python-dotenv
+ddgs
+feedparser
+requests
+pydantic
+strands-agents-evals

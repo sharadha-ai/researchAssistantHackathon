@@ -1,0 +1,46 @@
+name: Weekly Market Digest
+
+on:
+  schedule:
+    # Every Monday 09:00 UTC — adjust to your timezone/day preference
+    - cron: "0 9 * * 1"
+  workflow_dispatch:      # lets you trigger manually from the Actions tab
+    inputs:
+      question:
+        description: "Research question to run (leave blank to use the default weekly digest question)"
+        required: false
+        default: "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?"
+
+permissions:
+  contents: write   # needed to commit the new digest files back to the repo
+
+jobs:
+  run-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements_hackathon.txt
+
+      - name: Run weekly digest
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          MODEL_PROVIDER: groq
+          SEND_TELEGRAM: "true"
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DIGEST_QUESTION: ${{ github.event.inputs.question || 'What''s new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?' }}
+        run: python run_weekly.py
+
+      - name: Commit digest history
+        run: |
+          git config user.name "market-analyst-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add digests/
+          git diff --staged --quiet || git commit -m "Weekly market digest $(date -u +%Y-%m-%d)"
+          git push

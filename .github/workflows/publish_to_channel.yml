@@ -1,0 +1,35 @@
+name: Publish to Student Channel
+
+# Manual trigger ONLY — no schedule. This workflow existing but requiring a
+# human click IS the approval gate. Nothing ever reaches the channel
+# automatically.
+on:
+  workflow_dispatch:
+    inputs:
+      message_override:
+        description: "Paste your fine-tuned version here to publish it as-is. Leave blank to publish the latest digest's linkedin_post_draft unedited."
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Publish to channel
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+          MESSAGE_OVERRIDE: ${{ github.event.inputs.message_override }}
+        run: python publish_to_channel.py
