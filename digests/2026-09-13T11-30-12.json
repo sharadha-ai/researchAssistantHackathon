@@ -1,0 +1,96 @@
+{
+  "timestamp_utc": "2026-09-13T11-30-12",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "Rapid expansion of agentic-system runtime and serving engineering roles, with dozens of openings at frontier labs.",
+        "signal_strength": "strong",
+        "source_note": "The GPU Trade (July 1 2026) + Lightcast \u201cGenerative AI Job Market\u201d (2025)"
+      },
+      {
+        "summary": "Employers demand a mix of technical, social, and emotional/judgment skills for human-in-the-loop oversight of autonomous agents.",
+        "signal_strength": "early",
+        "source_note": "Motion Recruitment (May 7 2026)"
+      },
+      {
+        "summary": "Prompt-engineering, model fine-tuning, and AI-product design are baseline expectations even for non-IT positions.",
+        "signal_strength": "early",
+        "source_note": "Indeed Hiring Lab (Nov 6 2025) + Lightcast (2025)"
+      },
+      {
+        "summary": "Frontier labs show high turnover but sustained recruitment for agentic-AI research positions.",
+        "signal_strength": "early",
+        "source_note": "The GPU Trade (July 1 2026)"
+      },
+      {
+        "summary": "Growing emphasis on AI safety, alignment, and ethical oversight as part of the judgment skill set.",
+        "signal_strength": "early",
+        "source_note": "Motion Recruitment (May 7 2026)"
+      },
+      {
+        "summary": "Design-Studio-AI is a new open-source design workspace enabling AI agents and humans to co-create 3D, motion, and UI assets.",
+        "signal_strength": "early",
+        "source_note": "bestagentkits/design-studio-ai (GitHub, +68\u2605 in last 7 days)"
+      },
+      {
+        "summary": "Baize is a new Chinese-language AI-coding assistant CLI supporting multiple back-ends, tool-calling, sub-agent delegation, context compression, and sandboxed execution.",
+        "signal_strength": "early",
+        "source_note": "Xu123-Bob/Baize (GitHub, +68\u2605 in last 7 days)"
+      }
+    ],
+    "what_to_share_with_learners": [
+      {
+        "summary": "Rapid expansion of agentic-system runtime and serving engineering roles, with dozens of openings at frontier labs.",
+        "signal_strength": "strong",
+        "source_note": "The GPU Trade (July 1 2026) + Lightcast \u201cGenerative AI Job Market\u201d (2025)"
+      }
+    ],
+    "linkedin_post_draft": "\ud83d\ude80 **Agentic AI hiring is booming \u2013 especially on the runtime side!**\n\nIn the past week we\u2019ve seen frontier labs like Anthropic flood the market with dozens of openings for *Inference\u2011Runtime* and *Model\u2011Serving* engineers. Coupled with Lightcast\u2019s data showing a **7\u2011fold rise** in Generative\u2011AI Engineer postings since 2022, the signal is crystal clear: **building, scaling, and optimizing the execution layer of autonomous agents is the hottest talent demand right now.**\n\nIf you\u2019ve hands\u2011on experience with low\u2011latency inference stacks (TensorRT, ONNX Runtime, custom serving pipelines) or have shipped edge\u2011AI solutions, now\u2019s the moment to spotlight those projects. \ud83c\udf1f\n\n\ud83d\udc49 **Pro tip:** Tailor your r\u00e9sum\u00e9 to highlight end\u2011to\u2011end deployment pipelines, latency\u2011tuning, and any work that kept agents \u201calive\u201d in production. The market is moving fast, and the next wave of agentic\u2011AI products will need you. #AgenticAI #AIEngineering #InferenceRuntime #JobMarket #CareerTips",
+    "training_module_ideas": [
+      {
+        "topic": "Building Scalable Inference Pipelines for Agentic AI",
+        "learning_objective": "Learners will be able to design and implement low-latency serving architectures for autonomous agents.",
+        "key_points": [
+          "Architecture patterns for inference serving",
+          "Using TensorRT and ONNX Runtime for optimization",
+          "Monitoring and observability of agentic pipelines",
+          "Scaling strategies for edge and cloud deployments",
+          "Case study of runtime engineering role requirements"
+        ],
+        "based_on": "Rapid expansion of agentic-system runtime and serving engineering roles"
+      },
+      {
+        "topic": "Human-in-the-Loop Oversight and Safety Guardrails",
+        "learning_objective": "Learners will be able to embed judgment, ethical, and safety mechanisms into autonomous agent workflows.",
+        "key_points": [
+          "Identifying judgment and emotional skill requirements",
+          "Designing oversight interfaces",
+          "Risk assessment and alignment techniques",
+          "Cross-functional communication for safety",
+          "Integrating AI safety best practices"
+        ],
+        "based_on": "Employers demand a mix of technical, social, and emotional/judgment skills for human-in-the-loop oversight of autonomous agents"
+      },
+      {
+        "topic": "Prompt Engineering and AI Product Design for Non-Technical Roles",
+        "learning_objective": "Learners will be able to craft effective prompts and guide model fine-tuning to augment product design processes.",
+        "key_points": [
+          "Fundamentals of prompt engineering",
+          "Model fine-tuning basics for product teams",
+          "AI-augmented design thinking",
+          "Translating AI outputs into product requirements",
+          "Evaluating AI-generated designs"
+        ],
+        "based_on": "Prompt-engineering, model fine-tuning, and AI-product design are baseline expectations even for non-IT positions"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 4573,
+    "output_tokens": 1382,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
