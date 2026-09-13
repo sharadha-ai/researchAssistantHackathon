@@ -1,0 +1,66 @@
+{
+  "timestamp_utc": "2026-09-13T11-34-13",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "Emerging tooling trends \u2013 design\u2011studio\u2011ai visual co\u2011creation workspace and Baize CLI\u2011first autonomous coding agent with multi\u2011backend LLM support, modular delegation, safety features",
+        "signal_strength": "early",
+        "source_note": "GitHub repos (bestagentkits/design\u2011studio\u2011ai, Xu123\u2011Bob/Baize) \u2013 single weekly snapshot"
+      }
+    ],
+    "what_to_share_with_learners": [
+      {
+        "summary": "Accelerating hiring momentum for agentic\u2011AI roles with 86\u202fk+ postings, 280\u202f% YoY growth, median $153\u202fk salary; recurring titles \u2013 AI Agent Architect, Autonomous Workflow Engineer, Agentic Systems Engineer",
+        "signal_strength": "strong",
+        "source_note": "LinkedIn Pulse (Jul\u202f8\u202f2026), Agentic AI Jobs Index (Aug\u202f2026), AI Talent Report (Jun\u202f4\u202f2026), Reddit r/AI_Agents (Apr\u202f12\u202f2026)"
+      }
+    ],
+    "linkedin_post_draft": "\ud83d\ude80 **Agentic AI hiring is exploding \u2013 and the talent gap is widening** \ud83d\ude80\n\nThe latest LinkedIn Pulse analysis (July\u202f8\u202f2026) shows **86\u202f000+ job ads** that tag *agentic\u2011AI* as a required skill \u2013 a **280\u202f% year\u2011over\u2011year surge**. Median compensation for these roles now sits around **$153\u202fk**, well above the overall AI market average.\n\nWhat employers are looking for:\n\u2022 **AI Agent Architect** \u2013 design the high\u2011level architecture of autonomous agents.\n\u2022 **Autonomous Workflow Engineer** \u2013 build end\u2011to\u2011end pipelines that let agents orchestrate multi\u2011step business processes.\n\u2022 **Agentic Systems Engineer** \u2013 blend systems\u2011engineering rigor with agent\u2011centric development.\n\nCore skill tags that keep surfacing: **agentic\u2011AI**, **AI\u2011agent architecture**, **autonomous workflow engineering**, and **intelligent\u2011system design**.\n\n\ud83d\udc49 **If you\u2019re a recruiter, make sure your postings use these exact titles and skill tags** \u2013 they\u2019re now the primary filters job\u2011seekers rely on.\n\ud83d\udc49 **If you\u2019re a professional, start highlighting any experience you have building LLM\u2011driven planning loops, safety guardrails, or API\u2011orchestration pipelines.**\n\nThe talent shortage is real, but the opportunity to shape the next generation of autonomous AI systems is even bigger. Let\u2019s connect and share best practices!",
+    "training_module_ideas": [
+      {
+        "topic": "From Prompt to Architecture: Designing Autonomous AI Agents",
+        "learning_objective": "Learners will be able to map business problems to agentic\u2011AI architectures and produce system diagrams and component specifications aligned with AI Agent Architect role expectations.",
+        "key_points": [
+          "Map business problems to agentic\u2011AI architectural patterns",
+          "Draft system diagrams and component specs for autonomous agents",
+          "Analyze recent job postings to identify required skills",
+          "Hands\u2011on exercises using design\u2011studio\u2011ai workspace",
+          "Discuss safety layers and planning modules"
+        ],
+        "based_on": "Accelerating hiring momentum for agentic\u2011AI roles with 86\u202fk+ postings, 280\u202f% YoY growth, median $153\u202fk salary; recurring titles \u2013 AI Agent Architect, Autonomous Workflow Engineer, Agentic Systems Engineer"
+      },
+      {
+        "topic": "Building End\u2011to\u2011End Autonomous Workflows",
+        "learning_objective": "Learners will be able to engineer multi\u2011step pipelines where agents orchestrate tasks autonomously, implementing API orchestration, error handling, and monitoring as expected for Autonomous Workflow Engineer roles.",
+        "key_points": [
+          "Design multi\u2011step autonomous pipelines",
+          "Implement API orchestration and error handling",
+          "Apply monitoring and performance budgeting",
+          "Case study: automated invoice processing",
+          "Review tooling options for safe execution"
+        ],
+        "based_on": "Accelerating hiring momentum for agentic\u2011AI roles with 86\u202fk+ postings, 280\u202f% YoY growth, median $153\u202fk salary; recurring titles \u2013 AI Agent Architect, Autonomous Workflow Engineer, Agentic Systems Engineer"
+      },
+      {
+        "topic": "Agentic Systems Engineering: Bridging Systems Rigor and Autonomous Agents",
+        "learning_objective": "Learners will be able to apply systems\u2011engineering principles to agentic\u2011AI projects and create portfolio artifacts demonstrating competencies for Agentic Systems Engineer positions.",
+        "key_points": [
+          "Apply modularity, testing, and observability to agents",
+          "Design safety guardrails and context compression",
+          "Integrate multi\u2011backend LLMs",
+          "Prototype a small autonomous agent",
+          "Document system specifications for portfolio"
+        ],
+        "based_on": "Accelerating hiring momentum for agentic\u2011AI roles with 86\u202fk+ postings, 280\u202f% YoY growth, median $153\u202fk salary; recurring titles \u2013 AI Agent Architect, Autonomous Workflow Engineer, Agentic Systems Engineer"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 4962,
+    "output_tokens": 1493,
+    "cache_read_tokens": 256,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
