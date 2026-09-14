@@ -1,0 +1,118 @@
+{
+  "timestamp_utc": "2026-09-14T15-20-40",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "Specialized infrastructure roles such as \u201cinference\u2011runtime\u201d and \u201cmodel\u2011serving\u201d engineers are being hired.",
+        "signal_strength": "early",
+        "source_note": "Frontier Labs hiring ads"
+      },
+      {
+        "summary": "Security\u2011by\u2011design emphasis in autonomous agent job ads, highlighting dev\u2011first security and automated security\u2011fix workflows.",
+        "signal_strength": "early",
+        "source_note": "Single job ad source"
+      },
+      {
+        "summary": "Shift from pure coding to judgment & orchestration, with demand for prompt\u2011engineering, safety review, multi\u2011agent coordination, and social\u2011emotional competencies.",
+        "signal_strength": "early",
+        "source_note": "Motion Recruitment blog and Testlify assessments"
+      },
+      {
+        "summary": "High salary variance in Agentic AI roles, ranging $84k\u2013$485k, senior positions often >$300k.",
+        "signal_strength": "early",
+        "source_note": "ZipRecruiter listings"
+      },
+      {
+        "summary": "yc\u2011software/qm \u2013 multiplayer\u2011agent harness for cooperative LLM agents (\u2248\u202f15\u202fk stars).",
+        "signal_strength": "early",
+        "source_note": "GitHub repository"
+      },
+      {
+        "summary": "trycompai/crm \u2013 agentic\u2011first open\u2011source CRM (\u2248\u202f10\u202fk stars).",
+        "signal_strength": "early",
+        "source_note": "GitHub repository"
+      },
+      {
+        "summary": "genspark\u2011ai/genoffice \u2013 AI\u2011office suite with agent\u2011driven file editing (\u2248\u202f7\u202fk stars).",
+        "signal_strength": "early",
+        "source_note": "GitHub repository"
+      },
+      {
+        "summary": "elder\u2011plinius/T3MP3ST \u2013 autonomous red\u2011team meta\u2011harness (\u2248\u202f6\u202fk stars).",
+        "signal_strength": "early",
+        "source_note": "GitHub repository"
+      },
+      {
+        "summary": "oomol\u2011lab/open\u2011connector \u2013 1\u202f500+ SaaS\u2011provider connector layer for agents (\u2248\u202f5\u202fk stars).",
+        "signal_strength": "early",
+        "source_note": "GitHub repository"
+      },
+      {
+        "summary": "larashero3\u2011dotcom/lieflat\u2011charts \u2013 chart\u2011generation skill for agents (\u2248\u202f5\u202fk stars).",
+        "signal_strength": "early",
+        "source_note": "GitHub repository"
+      },
+      {
+        "summary": "CopilotKit/OpenBot \u2013 AI coworker with pre\u2011action decision & post\u2011action logging (\u2248\u202f4.9\u202fk stars).",
+        "signal_strength": "early",
+        "source_note": "GitHub repository"
+      },
+      {
+        "summary": "EvoMap/AutoResearch \u2013 end\u2011to\u2011end research\u2011assistant pipeline (\u2248\u202f4.3\u202fk stars).",
+        "signal_strength": "early",
+        "source_note": "GitHub repository"
+      }
+    ],
+    "what_to_share_with_learners": [
+      {
+        "summary": "Rapid growth in pure \u201cAgentic AI\u201d job titles with >700 new US openings in a single week and 101% YoY increase in AI/ML postings, mirroring surge for Agentic AI sub\u2011category.",
+        "signal_strength": "strong",
+        "source_note": "Dice, three job\u2011board aggregators, GPU Trade"
+      }
+    ],
+    "linkedin_post_draft": "\ud83d\ude80 Agentic AI hiring is exploding! In just one week (July\u202f1\u20117\u202f2026) the U.S. saw over 700 new Agentic\u2011AI engineering jobs on major boards, and Dice reports a 101\u202f% YoY surge in AI/ML postings \u2013 with the Agentic\u202fAI sub\u2011category mirroring that growth. Companies from Anthropic to Frontier Labs are actively expanding teams for multi\u2011agent orchestration, inference runtimes, and secure autonomous systems. If you have experience in LLM coordination, inference\u2011runtime engineering, or AI safety, now is the moment to position yourself in this fast\u2011moving niche.",
+    "training_module_ideas": [
+      {
+        "topic": "Building and Scaling Inference\u2011Runtime Pipelines for Agentic AI",
+        "learning_objective": "Learners will be able to design and implement a production\u2011ready inference\u2011runtime pipeline that supports low\u2011latency model serving for multi\u2011agent systems.",
+        "key_points": [
+          "Architecture of low\u2011latency model\u2011serving stacks",
+          "Container orchestration with Kubernetes for scaling",
+          "GPU/TPU optimization techniques",
+          "Case study insights from Frontier Labs job ads"
+        ],
+        "based_on": "Finding #2"
+      },
+      {
+        "topic": "Security\u2011by\u2011Design for Autonomous Agents",
+        "learning_objective": "Learners will construct a dev\u2011first security workflow, including automated vulnerability detection and remediation, for agentic AI deployments.",
+        "key_points": [
+          "Principles of dev\u2011first security for autonomous agents",
+          "Integrating automated security\u2011fix scripts into CI/CD",
+          "Using policy engines (e.g., OPA) for runtime enforcement",
+          "Testing and auditing autonomous agent pipelines"
+        ],
+        "based_on": "Finding #3"
+      },
+      {
+        "topic": "Prompt Engineering, Safety Review, and Multi\u2011Agent Orchestration",
+        "learning_objective": "Learners will apply prompt\u2011engineering techniques, conduct safety assessments, and orchestrate multiple agents to solve complex tasks.",
+        "key_points": [
+          "Designing effective prompts for LLM coordination",
+          "Safety and bias testing frameworks (inspired by Testlify)",
+          "Patterns for multi\u2011agent communication and orchestration",
+          "Evaluating social\u2011emotional and judgment competencies"
+        ],
+        "based_on": "Finding #4"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 6278,
+    "output_tokens": 1910,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
