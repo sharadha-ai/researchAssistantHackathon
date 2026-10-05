@@ -1,0 +1,116 @@
+{
+  "timestamp_utc": "2026-10-05T17-31-18",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "Domain\u2011specific Agentic AI roles are emerging, exemplified by a healthcare\u2011AI Engineer position focused on clinical reasoning.",
+        "signal_strength": "early",
+        "source_note": "Deloitte Healthcare posting"
+      },
+      {
+        "summary": "Anthropic\u2019s Claude is the first LLM explicitly tied to Agentic\u2011AI hiring, with a dedicated \u201cAgentic AI Engineer \u2013 Anthropic/Claude\u201d role.",
+        "signal_strength": "early",
+        "source_note": "Deloitte posting"
+      },
+      {
+        "summary": "Browser\u2011level autonomous agents are trending, with the repo feder\u2011cr/dots enabling web\u2011navigation loops that evade anti\u2011bot blocks.",
+        "signal_strength": "early",
+        "source_note": "GitHub trending (dots)"
+      },
+      {
+        "summary": "Local\u2011first personal agents are gaining traction, illustrated by the open\u2011dot Mac app that runs agents locally using OpenAI + Composio APIs.",
+        "signal_strength": "early",
+        "source_note": "GitHub trending (open\u2011dot)"
+      },
+      {
+        "summary": "Specialized \u201cagent skills\u201d for niche outputs/languages are proliferating, such as Japanese\u2011language skill yomiyasu and HTML\u2011output skill answer\u2011me\u2011with\u2011html.",
+        "signal_strength": "early",
+        "source_note": "GitHub trending (yomiyasu, answer\u2011me\u2011with\u2011html)"
+      },
+      {
+        "summary": "Safety\u2011oriented tooling is emerging, with AISafetyHot\u2011Hub curating daily AI\u2011safety papers and providing ready\u2011to\u2011plug\u2011in snippets.",
+        "signal_strength": "early",
+        "source_note": "GitHub trending (AISafetyHot\u2011Hub)"
+      }
+    ],
+    "what_to_share_with_learners": [
+      {
+        "summary": "Agentic AI has become a high\u2011visibility hiring category with tens of thousands of open roles listed under the exact label \u201cAgentic AI\u201d.",
+        "signal_strength": "strong",
+        "source_note": "AgenticCareers aggregator (1,185 listings), Indeed (26,202 results), LinkedIn (21,000+ US listings)"
+      },
+      {
+        "summary": "Companies are moving from research\u2011prototype to production\u2011scale autonomous agents, requiring roles to operationalize and run at scale.",
+        "signal_strength": "strong",
+        "source_note": "Deloitte job postings (two postings)"
+      },
+      {
+        "summary": "Multi\u2011agent orchestration is a core competency, involving design of autonomous, multi\u2011agent systems, retrieval, memory, and control layers.",
+        "signal_strength": "strong",
+        "source_note": "Deloitte job postings (both postings)"
+      },
+      {
+        "summary": "Safety, alignment, and responsible\u2011AI governance are non\u2011negotiable requirements, with emphasis on safety frameworks, risk assessment, and compliance.",
+        "signal_strength": "strong",
+        "source_note": "Deloitte job postings (both postings)"
+      },
+      {
+        "summary": "Research is coalescing around fast decision modules and reasoning/acting separation, proposing lightweight decision layers for reliable agents.",
+        "signal_strength": "strong",
+        "source_note": "ArXiv papers (5 Oct 2026) such as \u201cFast Models, Slow Evidence\u201d, \u201cDeReAct\u201d"
+      },
+      {
+        "summary": "Value\u2011estimation and tool\u2011use planning frameworks are emerging, with papers on \u201cChoosing Before Acting\u201d and \u201cWorld Editing\u201d introducing new planning techniques for long\u2011horizon agents.",
+        "signal_strength": "strong",
+        "source_note": "ArXiv papers (5 Oct 2026)"
+      }
+    ],
+    "linkedin_post_draft": "\ud83d\ude80 Agentic\u202fAI is now a mainstream hiring category! In just the past week, job platforms have listed tens of thousands of open positions under the exact title \u201cAgentic\u202fAI\u201d \u2013 1,185 on a dedicated board, over 26\u202fk on Indeed, and more than 21\u202fk on LinkedIn (US alone). This surge shows enterprises are moving beyond experiments to building production\u2011grade autonomous agents at scale. If you\u2019re a developer, data scientist, or AI\u2011safety specialist, now is the moment to upskill in LLM orchestration, multi\u2011agent design, and responsible\u2011AI governance. The demand is exploding, and the opportunities are real.",
+    "training_module_ideas": [
+      {
+        "topic": "Production\u2011Ready Multi\u2011Agent Systems",
+        "learning_objective": "Learners will be able to design, orchestrate, and deploy autonomous multi\u2011agent pipelines that operate at enterprise scale.",
+        "key_points": [
+          "Architecting multi\u2011agent workflows with retrieval and memory layers",
+          "Integrating LLMs (e.g., Claude, GPT\u20114) as agent components",
+          "Containerizing and deploying with Docker/Kubernetes",
+          "Implementing monitoring, logging, and fault\u2011tolerance",
+          "Ensuring scalability and cost\u2011effective resource usage"
+        ],
+        "based_on": "Finding 2, Finding 3"
+      },
+      {
+        "topic": "Safety, Alignment, and Governance for Agentic AI",
+        "learning_objective": "Learners will be able to conduct safety audits, implement guardrails, and draft governance policies for autonomous agents.",
+        "key_points": [
+          "Risk assessment frameworks for autonomous agents",
+          "Tool\u2011call validation and output filtering techniques",
+          "Compliance with responsible\u2011AI standards and regulations",
+          "Monitoring, incident response, and continuous evaluation",
+          "Creating concise governance policy documents"
+        ],
+        "based_on": "Finding 4"
+      },
+      {
+        "topic": "Domain\u2011Specific Agentic AI: Healthcare Use Case",
+        "learning_objective": "Learners will be able to adapt a multi\u2011agent system to a regulated healthcare domain, incorporating clinical reasoning and compliance requirements.",
+        "key_points": [
+          "Integrating medical knowledge bases and retrieval\u2011augmented reasoning",
+          "Designing agents that respect patient privacy and regulatory constraints",
+          "Implementing domain\u2011specific validation and safety checks",
+          "Evaluating performance on simulated clinical scenarios",
+          "Adapting orchestration patterns for healthcare workflows"
+        ],
+        "based_on": "Finding 5"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 5793,
+    "output_tokens": 2077,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
