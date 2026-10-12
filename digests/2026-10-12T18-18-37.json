@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "2026-10-12T18-18-37",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "A new associate\u2011level salary band is appearing, indicating a growing pipeline of junior talent entering Agentic AI roles.",
+        "signal_strength": "early",
+        "source_note": "KORE1 salary\u2011band guide"
+      },
+      {
+        "summary": "Edge\u2011native personal agents (e.g., talorys on Cloudflare Workers) are emerging, showing a shift toward on\u2011device/edge deployment for privacy\u2011preserving assistants.",
+        "signal_strength": "early",
+        "source_note": "talorys repository (\u2248875\u202f\u2b50)"
+      },
+      {
+        "summary": "UI\u2011overlay agents that draw on\u2011screen annotations (e.g., big\u2011arrow\u2011on\u2011the\u2011screen) are appearing, pointing to a trend of transparent, visual\u2011feedback agents.",
+        "signal_strength": "early",
+        "source_note": "big\u2011arrow\u2011on\u2011the\u2011screen repository (\u2248660\u202f\u2b50)"
+      },
+      {
+        "summary": "Companies are broadening role titles (Agentic AI Developer, GenAI Engineer, AI Architect) as they move from proof\u2011of\u2011concept to production\u2011grade AI agents.",
+        "signal_strength": "early",
+        "source_note": "LinkedIn Pulse article; Agentic\u2011Engineering\u2011Jobs.com listings"
+      },
+      {
+        "summary": "New research \u2018Know What You Don\u2019t Know\u2019 proposes closed\u2011loop data synthesis for self\u2011improving agents, shaping future tooling roadmaps.",
+        "signal_strength": "early",
+        "source_note": "arXiv paper, 12 Oct 2026"
+      }
+    ],
+    "what_to_share_with_learners": [
+      {
+        "summary": "Mid\u2011level Agentic AI engineer salaries have converged on a $185\u202fK\u202f\u2013\u202f$320\u202fK base\u2011pay range; the market is a seller\u2019s market with a thin talent pool.",
+        "signal_strength": "strong",
+        "source_note": "KORE1 2026 survey; LinkedIn seller\u2019s market post; KORE1 hiring guide"
+      },
+      {
+        "summary": "Security\u2011focused autonomous agents (ARTEX and its fork ARTEXX) are rapidly gaining traction, signalling the emergence of a domain\u2011specific ecosystem for production\u2011grade AI\u2011driven penetration testing.",
+        "signal_strength": "strong",
+        "source_note": "GitHub repos mhtsec/ARTEX (\u22483.5k\u202f\u2b50) and trhhubsd/ARTEXX (\u2248350\u202f\u2b50) activity in the same week"
+      }
+    ],
+    "linkedin_post_draft": "\ud83d\ude80 **Agentic AI engineering salaries have finally settled \u2013 and the market is hotter than ever.** In the past week, multiple industry surveys (KORE1 2026) and LinkedIn insights report a **base\u2011pay band of $185\u202fK\u202f\u2013\u202f$320\u202fK** for mid\u2011level Agentic AI engineers, with senior architect roles topping $500\u202fK. The talent pool remains **thin**, making this a true **seller\u2019s market**. Companies that sharpen job descriptions toward production\u2011ready AI\u2011agent experience and move quickly on offers will win the war for talent. If you\u2019re hiring, now\u2019s the time to align compensation with market reality and focus on real\u2011world agent deployment skills.",
+    "training_module_ideas": [
+      {
+        "topic": "From Prototype to Production: Deployable Agentic AI Systems",
+        "learning_objective": "Learners will be able to design, test, and launch autonomous agents from a research prototype to a production\u2011grade service.",
+        "key_points": [
+          "Architectural patterns for multi\u2011agent orchestration and CI/CD pipelines",
+          "Integrating security\u2011focused agents (e.g., ARTEX/ARTEXX) into production stacks",
+          "Using UI\u2011overlay tools for observability and transparent feedback",
+          "Deploying agents on edge platforms (e.g., Cloudflare Workers with talorys)",
+          "Monitoring and troubleshooting autonomous behavior in live environments"
+        ],
+        "based_on": "Security\u2011focused autonomous agents gaining traction; UI\u2011overlay agents providing visual feedback; Edge\u2011native personal agents emerging"
+      },
+      {
+        "topic": "Hiring & Evaluating Agentic AI Talent in a Seller\u2019s Market",
+        "learning_objective": "Learners will be able to craft compelling job postings, assess candidate readiness for production\u2011grade AI agents, and benchmark compensation.",
+        "key_points": [
+          "Understanding the $185\u202fK\u2013$320\u202fK mid\u2011level salary band and its market implications",
+          "Identifying skill gaps through the ARTEX security\u2011agent ecosystem",
+          "Evaluating emerging junior talent via the new associate\u2011level band",
+          "Designing interview tasks that test production\u2011ready agent deployment",
+          "Adapting role titles (Agentic AI Developer, GenAI Engineer, AI Architect) to attract the right candidates"
+        ],
+        "based_on": "Mid\u2011level salary convergence and seller\u2019s market; New associate\u2011level salary band; Broadening role titles"
+      },
+      {
+        "topic": "Secure Edge\u2011Native Agents: Architecture, Tooling, and Best Practices",
+        "learning_objective": "Learners will be able to build and secure autonomous agents that run on edge or device environments.",
+        "key_points": [
+          "Core concepts of security\u2011focused agents (ARTEX/ARTEXX) for penetration testing",
+          "Deploying lightweight agents on Cloudflare Workers and similar edge runtimes",
+          "Privacy considerations for on\u2011device personal assistants",
+          "Applying closed\u2011loop data synthesis techniques from recent research",
+          "Auditing and hardening edge agents against adversarial behavior"
+        ],
+        "based_on": "Security\u2011focused autonomous agents gaining traction; Edge\u2011native personal agents emerging; Closed\u2011loop data synthesis research"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 6505,
+    "output_tokens": 1562,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
