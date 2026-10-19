@@ -1,0 +1,120 @@
+{
+  "timestamp_utc": "2026-10-19T15-57-25",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "Agentic AI systems skill demand up 16% in last month",
+        "signal_strength": "early",
+        "source_note": "Skillenai \u201cAgentic AI systems\u201d skill index (snapshot 2026-09-18)"
+      },
+      {
+        "summary": "65 open Agentic AI Engineer positions",
+        "signal_strength": "early",
+        "source_note": "Skillenai \u201cAgentic AI Engineer\u201d index (snapshot 2026-10-14)"
+      },
+      {
+        "summary": "Agentic AI job postings down 11% in last 4\u2011week window",
+        "signal_strength": "early",
+        "source_note": "Skillenai overall \u201cagentic AI\u201d skill index (snapshot 2026-09-27)"
+      },
+      {
+        "summary": "Python most\u2011mentioned skill in Agentic AI Engineer jobs",
+        "signal_strength": "early",
+        "source_note": "Skillenai \u201cAgentic AI Engineer\u201d index (2026-10-14)"
+      },
+      {
+        "summary": "git\u2011ai tool enables AI agents to interact with Git",
+        "signal_strength": "early",
+        "source_note": "Tooling\u2011trend\u2011watcher GitHub trending (past 7 days)"
+      },
+      {
+        "summary": "earshot adds audio input for coding agents",
+        "signal_strength": "early",
+        "source_note": "Tooling\u2011trend\u2011watcher GitHub trending (past 7 days)"
+      },
+      {
+        "summary": "blender\u2011ai\u2011mcp\u2011addon supports multi\u2011agent workflows in Blender",
+        "signal_strength": "early",
+        "source_note": "Tooling\u2011trend\u2011watcher GitHub trending (past 7 days)"
+      },
+      {
+        "summary": "coop\u2011anything framework for agents in single\u2011player games",
+        "signal_strength": "early",
+        "source_note": "Tooling\u2011trend\u2011watcher GitHub trending (past 7 days)"
+      },
+      {
+        "summary": "decomp.wtf agent\u2011driven decompiler",
+        "signal_strength": "early",
+        "source_note": "Tooling\u2011trend\u2011watcher GitHub trending (past 7 days)"
+      },
+      {
+        "summary": "AI\u2011Cross\u2011Border\u2011Ecommerce\u2011Agent\u2011Toolkit provides e\u2011commerce agent workflows",
+        "signal_strength": "early",
+        "source_note": "Tooling\u2011trend\u2011watcher GitHub trending (past 7 days)"
+      },
+      {
+        "summary": "whatsapp\u2011mcp read\u2011only server for agents to query WhatsApp",
+        "signal_strength": "early",
+        "source_note": "Tooling\u2011trend\u2011watcher GitHub trending (past 7 days)"
+      },
+      {
+        "summary": "OpenAI Stack Overflow for Agents plugin triples sign\u2011ups",
+        "signal_strength": "early",
+        "source_note": "OpenAI RSS feed (16 Oct 2026)"
+      },
+      {
+        "summary": "Ita\u00fa launches enterprise\u2011scale generative AI agents for millions",
+        "signal_strength": "early",
+        "source_note": "OpenAI RSS feed (16 Oct 2026)"
+      }
+    ],
+    "what_to_share_with_learners": [],
+    "linkedin_post_draft": "\ud83d\ude80 Agentic\u202fAI systems are gaining traction \u2013 demand is up 16\u202f% in just the last month! The latest Skillenai data shows a +16\u202f% jump in job postings that explicitly require experience with agentic\u202fAI systems. Companies are moving beyond buzz\u2011words and looking for engineers who can design, integrate, and scale multi\u2011agent pipelines. If you\u2019ve built LLM\u2011driven orchestration layers, safety\u2011guardrails, or end\u2011to\u2011end agent workflows, now\u2019s the time to highlight that experience. \ud83d\udcc8",
+    "training_module_ideas": [
+      {
+        "topic": "Building System-Level Agentic AI Pipelines with Python",
+        "learning_objective": "Learners will be able to design and implement end\u2011to\u2011end multi\u2011agent pipelines using Python.",
+        "key_points": [
+          "Architecting LLM\u2011driven orchestration layers",
+          "Integrating tool\u2011use APIs and safety monitors",
+          "Managing state and data flow across agents",
+          "Deploying pipelines in cloud or on\u2011prem environments",
+          "Showcasing real\u2011world examples that align with hiring demand"
+        ],
+        "based_on": "Python most\u2011mentioned skill; Agentic AI systems demand up 16%"
+      },
+      {
+        "topic": "Embedding Agents into Development Toolchains",
+        "learning_objective": "Learners will be able to integrate AI agents into version\u2011control and audio\u2011input workflows using emerging tools.",
+        "key_points": [
+          "Using git\u2011ai to let agents read, write, and commit code",
+          "Adding audio\u2011input capabilities with earshot",
+          "Best practices for security and auditability in code\u2011centric agents",
+          "Hands\u2011on labs that embed agents into CI/CD pipelines",
+          "Evaluating productivity gains from agent\u2011augmented tooling"
+        ],
+        "based_on": "git\u2011ai tool enables AI agents to interact with Git; earshot adds audio input for coding agents"
+      },
+      {
+        "topic": "Domain\u2011Specific Agent Toolkits: From E\u2011Commerce to Messaging",
+        "learning_objective": "Learners will be able to adapt ready\u2011made agent toolkits for e\u2011commerce and messaging applications.",
+        "key_points": [
+          "Exploring the AI\u2011Cross\u2011Border\u2011Ecommerce\u2011Agent\u2011Toolkit workflows",
+          "Connecting agents to WhatsApp via whatsapp\u2011mcp",
+          "Customising prompts and APIs for domain\u2011specific tasks",
+          "Scaling and monitoring agent deployments in production",
+          "Case studies of enterprise rollouts (e.g., Ita\u00fa) and consumer adoption"
+        ],
+        "based_on": "AI\u2011Cross\u2011Border\u2011Ecommerce\u2011Agent\u2011Toolkit provides e\u2011commerce workflows; whatsapp\u2011mcp read\u2011only server for agents to query WhatsApp"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 5288,
+    "output_tokens": 1813,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
