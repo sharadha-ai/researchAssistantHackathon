@@ -1,0 +1,65 @@
+{
+  "timestamp_utc": "2026-10-26T15-34-17",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "Burst of skill-oriented open-source repos and emergence of first agent-native functional language (ChaosIntelligence), with research on skill acquisition, self-repair, and tool-driven synthesis.",
+        "signal_strength": "strong",
+        "source_note": "8 GitHub repos released/updated in last 7 days, 7 new arXiv papers"
+      }
+    ],
+    "what_to_share_with_learners": [
+      {
+        "summary": "Agentic AI hiring market is large and actively growing \u2013 tens of thousands of listings and ~17 new curated roles in the last week.",
+        "signal_strength": "strong",
+        "source_note": "LinkedIn aggregate, LatchHire feed, AgenticJobs.dev weekly update, AI Engineer Jobs search portal"
+      },
+      {
+        "summary": "Burst of skill-oriented open-source repos and emergence of first agent-native functional language (ChaosIntelligence), with research on skill acquisition, self-repair, and tool-driven synthesis.",
+        "signal_strength": "strong",
+        "source_note": "8 GitHub repos released/updated in last 7 days, 7 new arXiv papers"
+      }
+    ],
+    "linkedin_post_draft": "\ud83d\ude80 Agentic AI is entering a new era of plug\u2011and\u2011play skills. This week dozens of ready\u2011made agent skill libraries landed on GitHub \u2013 from genealogy lookup to digital\u2011human video generation, security\u2011assessment pipelines, and even a Chinese\u2011language startup\u2011founder workflow kit. On top of that, the first agent\u2011native functional language, ChaosIntelligence, was released, letting developers write agents as true functions rather than long prompt chains. The evidence is clear: multiple repos and new research papers appeared in the last seven days, showing a rapid move toward modular, reusable micro\u2011services for LLM agents. If you haven\u2019t started experimenting with modular agent skills, now\u2019s the time to dive in.",
+    "training_module_ideas": [
+      {
+        "topic": "Building Reusable Agent Skills from Open-Source Repositories",
+        "learning_objective": "Learners will be able to discover, evaluate, and integrate community\u2011published skill modules into their LLM\u2011agent pipelines.",
+        "key_points": [
+          "Navigate GitHub for agent\u2011skill tags",
+          "Wrap a skill as a micro\u2011service (REST/GRPC)",
+          "Orchestrate multiple skills with a simple workflow engine"
+        ],
+        "based_on": "Burst of skill-oriented open-source repos and emergence of first agent-native functional language (ChaosIntelligence)"
+      },
+      {
+        "topic": "Programming Agents with a Functional Language: Hands\u2011On with ChaosIntelligence",
+        "learning_objective": "Learners will be able to write, test, and deploy goal\u2011driven bots using the ChaosIntelligence functional language.",
+        "key_points": [
+          "Install the language runtime",
+          "Define functions that call LLMs and external tools",
+          "Debug agent execution flow and visualize state"
+        ],
+        "based_on": "Burst of skill-oriented open-source repos and emergence of first agent-native functional language (ChaosIntelligence)"
+      },
+      {
+        "topic": "Continual Learning & Self\u2011Repair for Production Agents",
+        "learning_objective": "Learners will be able to implement patterns that enable agents to acquire new capabilities and automatically fix recurring errors.",
+        "key_points": [
+          "Design a capability store and retrieval mechanism",
+          "Implement a failure\u2011analysis loop that logs, replays, and updates skill definitions",
+          "Evaluate robustness with simulated permission\u2011failure and jailbreak scenarios"
+        ],
+        "based_on": "Burst of skill-oriented open-source repos and emergence of first agent-native functional language (ChaosIntelligence)"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 4890,
+    "output_tokens": 1641,
+    "cache_read_tokens": 256,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
