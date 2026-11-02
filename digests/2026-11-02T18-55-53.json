@@ -1,0 +1,111 @@
+{
+  "timestamp_utc": "2026-11-02T18-55-53",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "Geographic & remote\u2011first spread: hiring concentrations in Silicon Valley, Seattle, Austin, Toronto, London, Berlin with rising remote\u2011first listings",
+        "signal_strength": "early",
+        "source_note": "AgenticCareers live dashboard"
+      },
+      {
+        "summary": "On\u2011device autonomous assistants: Mika demonstrates a fully local Android AI assistant that can drive apps and browse the web without cloud calls",
+        "signal_strength": "early",
+        "source_note": "Mika repo"
+      },
+      {
+        "summary": "Domain\u2011specific agent demo: Roblox\u2011AI\u2011Studio\u2011Agent shows agents specialised for niche creative platforms",
+        "signal_strength": "early",
+        "source_note": "roblox\u2011ai\u2011studio\u2011agent repo"
+      },
+      {
+        "summary": "Recent research focus: arXiv papers on self\u2011evolving agents, safety sufficiency for web world models, multimodal speech emotion recognition, and societal risk of surveillance\u2011assistant agents",
+        "signal_strength": "early",
+        "source_note": "5 arXiv papers (this week)"
+      }
+    ],
+    "what_to_share_with_learners": [
+      {
+        "summary": "\u2248986% jump in Agentic\u2011AI job listings (2023\u201124) and ~280% YoY increase in 2026",
+        "signal_strength": "strong",
+        "source_note": "LinkedIn post, AgenticCareers live dashboard, Divergence.one blog, AI Awareness article"
+      },
+      {
+        "summary": "30\u201150% higher salaries for candidates with agentic\u2011AI skills plus regulated\u2011industry expertise (finance, health\u2011care, legal)",
+        "signal_strength": "strong",
+        "source_note": "LinkedIn post, AI Awareness article"
+      },
+      {
+        "summary": "Recruiters prioritize skill buckets: agent orchestration & workflow design, RLHF & alignment, tool\u2011integration/API execution, safety/monitoring/observability, prompt\u2011engineering for agents, multi\u2011modal reasoning, continuous\u2011learning/online RL, domain expertise",
+        "signal_strength": "strong",
+        "source_note": "LinkedIn post, AgenticCareers dashboard, AI Awareness article"
+      },
+      {
+        "summary": "New job titles emerging: Agentic AI Engineer, AI Agent Product Manager, AI Safety Engineer \u2013 Agents, Autonomous\u2011Agent Platform Engineer, Prompt\u2011Engineering Lead \u2013 Agentic Systems, AI\u2011Agent Security Engineer",
+        "signal_strength": "strong",
+        "source_note": "LinkedIn post, Divergence.one blog, AI Awareness article"
+      },
+      {
+        "summary": "Safety\u2011tooling trend: grim\u2011prompter threat\u2011modeling toolkit for coding agents and better\u2011skill audit/skill\u2011scoring framework",
+        "signal_strength": "strong",
+        "source_note": "grim\u2011prompter repo, better\u2011skill repo"
+      },
+      {
+        "summary": "Visual/3\u2011D agent pipelines: AgentFlux self\u2011hosted visual workflow platform and anyscene photorealistic Blender\u2011scene generator",
+        "signal_strength": "strong",
+        "source_note": "AgentFlux repo, anyscene repo"
+      },
+      {
+        "summary": "Education & standardisation: Chinese translation of Stanford CS329Z \u2018Engineering AI Agents\u2019 course and the better\u2011skill framework indicate community effort to codify curricula and capability standards",
+        "signal_strength": "strong",
+        "source_note": "cs329z\u2011chinese repo, better\u2011skill repo"
+      }
+    ],
+    "linkedin_post_draft": "\ud83d\ude80 **Agentic AI hiring is exploding!** In the last two years we\u2019ve seen a **986\u202f% surge in Agentic\u2011AI job listings** (2023\u202f\u2192\u202f2024) and a **~280\u202f% year\u2011on\u2011year increase in 2026**. Companies are racing to staff roles such as *Agentic AI Engineer, AI Agent Product Manager, AI Safety Engineer \u2013 Agents*, and *Autonomous\u2011Agent Platform Engineer*. The market isn\u2019t just growing\u2014it\u2019s paying a premium: professionals who blend agentic\u2011AI expertise with regulated\u2011industry knowledge (finance, health\u2011care, legal) command **30\u201150\u202f% higher salaries**. If you\u2019re looking to break into the field, focus on the four skill pillars recruiters are flagging: **orchestration & workflow design, RLHF/alignment, tool\u2011integration, and safety/observability**. The talent race is on\u2014are you ready to join the next wave of autonomous\u2011agent builders?",
+    "training_module_ideas": [
+      {
+        "topic": "Building Safe Autonomous Agents",
+        "learning_objective": "Learners will be able to design and implement safety guardrails for autonomous AI agents using threat\u2011modeling and audit frameworks.",
+        "key_points": [
+          "Introduce safety\u2011by\u2011design principles for agentic systems",
+          "Hands\u2011on threat\u2011modeling with the grim\u2011prompter toolkit",
+          "Applying the better\u2011skill audit framework to score agent capabilities",
+          "Creating observability dashboards for runtime monitoring",
+          "Running safety verification tests before deployment"
+        ],
+        "based_on": "Safety\u2011tooling trend (grim\u2011prompter, better\u2011skill)"
+      },
+      {
+        "topic": "Orchestrating Multi\u2011Modal Agent Pipelines",
+        "learning_objective": "Learners will construct end\u2011to\u2011end agent workflows that combine LLM orchestration with visual/3\u2011D content generation.",
+        "key_points": [
+          "Designing agent orchestration and workflow graphs",
+          "Integrating prompt\u2011engineering and RLHF for language components",
+          "Connecting to visual pipelines using AgentFlux and anyscene",
+          "Managing data flow between text, image, and 3\u2011D assets",
+          "Deploying the pipeline on self\u2011hosted infrastructure"
+        ],
+        "based_on": "Visual/3\u2011D agent pipelines (AgentFlux, anyscene)"
+      },
+      {
+        "topic": "Career Pathways in Agentic AI",
+        "learning_objective": "Learners will map core skill buckets to emerging job titles and understand salary premiums for domain\u2011specific expertise.",
+        "key_points": [
+          "Review of core skill buckets recruiters flag",
+          "Breakdown of new job titles and typical responsibilities",
+          "Analysis of salary premium data for regulated\u2011industry expertise",
+          "Building a personal skill development roadmap",
+          "Strategies for positioning oneself in the hiring market"
+        ],
+        "based_on": "Core skill buckets, new job titles, and salary premium findings"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 7012,
+    "output_tokens": 2048,
+    "cache_read_tokens": 256,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
