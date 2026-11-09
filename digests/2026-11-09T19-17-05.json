@@ -1,0 +1,70 @@
+{
+  "timestamp_utc": "2026-11-09T19-17-05",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "Tens of thousands of Agentic AI roles now listed across major job boards, with new job families and core skill buckets such as multi\u2011agent system design, LLM orchestration, RL/planning, tool\u2011use, safety, and production\u2011grade engineering.",
+        "signal_strength": "strong",
+        "source_note": "Compiled research (job boards)"
+      },
+      {
+        "summary": "A wave of newly\u2011created open\u2011source repos and fresh arXiv papers highlight mobile\u2011first SDKs, multimodal pipelines, modular skill plug\u2011in ecosystems, observability platforms, and research on long\u2011term consistency and social\u2011norm compliance.",
+        "signal_strength": "strong",
+        "source_note": "Compiled research (GitHub, arXiv)"
+      }
+    ],
+    "what_to_share_with_learners": [
+      {
+        "summary": "Tens of thousands of Agentic AI roles now listed across major job boards, with new job families and core skill buckets such as multi\u2011agent system design, LLM orchestration, RL/planning, tool\u2011use, safety, and production\u2011grade engineering.",
+        "signal_strength": "strong",
+        "source_note": "Compiled research (job boards)"
+      },
+      {
+        "summary": "A wave of newly\u2011created open\u2011source repos and fresh arXiv papers highlight mobile\u2011first SDKs, multimodal pipelines, modular skill plug\u2011in ecosystems, observability platforms, and research on long\u2011term consistency and social\u2011norm compliance.",
+        "signal_strength": "strong",
+        "source_note": "Compiled research (GitHub, arXiv)"
+      }
+    ],
+    "linkedin_post_draft": "\ud83d\ude80 **Agentic\u202fAI hiring is exploding!** In just the past week, the major job boards (LinkedIn, Indeed, AgenticCareers) collectively list tens of thousands of new \u201cAgentic\u202fAI\u201d positions across the United States and beyond. Companies are even creating dedicated job families \u2013 Engineer, Researcher, Product Manager, Developer \u2013 and branding them as a distinct career path. \n\nWhat recruiters and talent should focus on:\n\u2022 **Multi\u2011agent system design & coordination**\n\u2022 **LLM orchestration & prompt engineering**\n\u2022 **Reinforcement\u2011learning / planning**\n\u2022 **Tool\u2011use & API integration**\n\u2022 **Safety, alignment, and observability**\n\u2022 **Production\u2011grade engineering practices**\n\nIf you\u2019re looking to hire, build interview tracks around these skill buckets. If you\u2019re job\u2011seeking, showcase projects that demonstrate end\u2011to\u2011end autonomous agent pipelines, not just isolated model training. The market signal is clear: **Agentic\u202fAI talent is in high demand and the hiring surge shows no sign of slowing.** Let\u2019s connect and share how we\u2019re preparing for this next wave of autonomous AI teams!",
+    "training_module_ideas": [
+      {
+        "topic": "Designing Multi\u2011Agent Systems for Production",
+        "learning_objective": "Learners will be able to design and implement production\u2011ready multi\u2011agent architectures.",
+        "key_points": [
+          "Architecture patterns (hierarchical, peer\u2011to\u2011peer, coordinator\u2011worker)",
+          "Defining communication protocols and emergent\u2011behavior monitoring",
+          "Hands\u2011on lab: build a workflow that coordinates LLM reasoning, tool\u2011use, and RL\u2011based planning"
+        ],
+        "based_on": "Hiring trends finding (skill bucket: multi\u2011agent system design)"
+      },
+      {
+        "topic": "LLM Orchestration & Prompt Engineering for Agentic Applications",
+        "learning_objective": "Learners will be able to orchestrate LLMs within autonomous agents using prompt engineering and safety guards.",
+        "key_points": [
+          "Prompt chaining, tool\u2011use prompting, and few\u2011shot design in agent loops",
+          "Safety & alignment guards (guardrails, self\u2011reflection, verification)",
+          "Lab: convert a static chatbot into an autonomous agent that fetches data via APIs, plans actions, and self\u2011corrects"
+        ],
+        "based_on": "Hiring trends finding (skill bucket: LLM orchestration)"
+      },
+      {
+        "topic": "Building a Modular Skill Ecosystem for Autonomous Agents",
+        "learning_objective": "Learners will be able to create, package, and integrate reusable skill plug\u2011ins for autonomous agents.",
+        "key_points": [
+          "Concept of \u201cskills\u201d/plug\u2011ins (e.g., mobile device control, media generation)",
+          "Packaging skills as reusable libraries (Docker, Python packages) and registering them",
+          "Lab: develop a new skill (on\u2011device image captioning) and attach it to an agent framework using agentcase\u2011lab debugging"
+        ],
+        "based_on": "Tooling & research trends finding (modular skill plug\u2011in ecosystems)"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 5190,
+    "output_tokens": 1529,
+    "cache_read_tokens": 256,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
