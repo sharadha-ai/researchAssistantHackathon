@@ -1,0 +1,63 @@
+{
+  "timestamp_utc": "2026-11-23T20-40-44",
+  "question": "What's new this week in Agentic AI hiring trends and in tooling/frameworks worth knowing about?",
+  "digest": {
+    "what_to_study": [
+      {
+        "summary": "Recent arXiv papers (Nov\u202f17\u201123\u202f2026) introduce new resources: TOUMAII tool\u2011calling preference dataset, ChatAtom open\u2011source multi\u2011agent system for molecular\u2011dynamics simulation, AstronautBench benchmark for agent self\u2011improvement, plus safety, calibration, and budget\u2011aware orchestration studies.",
+        "signal_strength": "early",
+        "source_note": "arXiv"
+      }
+    ],
+    "what_to_share_with_learners": [
+      {
+        "summary": "Agentic AI positions surged to 48,025 on Indeed, making up 71% of AI job postings, a 55% YoY increase in AI\u2011skill ads and a 297% decade\u2011long rise in \u201cagentic\u201d terminology, indicating a dominant hiring focus on agentic technologies.",
+        "signal_strength": "strong",
+        "source_note": "Indeed; Agentic AI Jobs Index; Stanford AI Index; SoftwareFinder"
+      }
+    ],
+    "linkedin_post_draft": "\ud83d\ude80 Agentic AI hiring is exploding! In the past week Indeed listed 48,025 open Agentic AI positions\u2014the highest weekly total ever recorded. The curated Agentic AI Jobs Index shows 71\u202f% of all AI\u2011related roles now focus on agentic technologies, up from about 55\u202f% a year ago. Stanford\u2019s AI Index reports a 55\u202f% YoY rise in AI\u2011skill ads and a 297\u202f% decade\u2011long increase for the term \u201cagentic.\u201d Companies are racing to staff teams that can orchestrate LLMs with external tools, embed RL\u2011from\u2011human\u2011feedback loops, and build safe multi\u2011agent pipelines. If you have hands\u2011on experience in LLM orchestration, prompt\u2011ops, or agent safety, now is the time to showcase those skills. Bottom line: Agentic AI is no longer a niche research area \u2013 it\u2019s the dominant hiring focus across the AI job market.",
+    "training_module_ideas": [
+      {
+        "topic": "LLM Orchestration & Tool\u2011Calling in Production",
+        "learning_objective": "Learners will be able to design and implement an LLM\u2011driven agent that autonomously calls external tools and evaluate it using the TOUMAII dataset.",
+        "key_points": [
+          "Overview of tool\u2011calling architectures (e.g., LangChain, ReAct)",
+          "Hands\u2011on use of the TOUMAII dataset for prompting and evaluation",
+          "Building a production\u2011grade pipeline that integrates APIs (calendar, database, code execution)",
+          "Strategies to showcase orchestration projects on a r\u00e9sum\u00e9"
+        ],
+        "based_on": "Hiring trend (strong) and TOUMAII dataset (early)"
+      },
+      {
+        "topic": "Safety Guardrails & RLHF for Autonomous Agents",
+        "learning_objective": "Learners will be able to construct safety verification checks and a basic RLHF loop for an autonomous agent, aligning with current hiring emphasis on safety and alignment.",
+        "key_points": [
+          "Understanding safety\u2011focused hiring patterns from Stanford AI Index and SoftwareFinder",
+          "Designing reward models and safety checklists for agents",
+          "Implementing a simple RLHF loop for tool\u2011using agents",
+          "Preparing interview\u2011ready artifacts that demonstrate safety expertise"
+        ],
+        "based_on": "Hiring trend (strong)"
+      },
+      {
+        "topic": "Evaluating & Improving Agentic Systems with Benchmarks",
+        "learning_objective": "Learners will be able to run the AstronautBench benchmark on a multi\u2011agent system and interpret self\u2011improvement metrics to guide development.",
+        "key_points": [
+          "Introduction to AstronautBench and its evaluation criteria",
+          "Setting up the ChatAtom multi\u2011agent framework for a scientific workflow",
+          "Running benchmark episodes and analyzing performance gains",
+          "Formulating improvement strategies and communicating results in job interviews"
+        ],
+        "based_on": "AstronautBench benchmark (early) and hiring demand for multi\u2011agent coordination (strong)"
+      }
+    ]
+  },
+  "cost": {
+    "input_tokens": 7063,
+    "output_tokens": 1876,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "estimated_cost_usd": 0.0
+  }
+}
